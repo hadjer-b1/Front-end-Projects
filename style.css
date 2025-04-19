@@ -1,0 +1,262 @@
+@font-face {
+  font-family: "Simply Sweet";
+  src: url("./fonts/SimplySweet.otf") format("opentype"); /* adjust the path if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Simply Sweet", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #443627;
+  box-shadow: 0px 0px 20px 0px #d98324;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+.logo {
+  text-decoration: none;
+  margin: 0;
+  font-size: 2.5em;
+  color: #d98324;
+  box-shadow: #f2f6d0 0px 0px 5px 0px;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 20px;
+}
+header > a:hover {
+  box-shadow: #d98324 0px 0px 5px 0px;
+  color: #f2f6d0;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  margin: 30px;
+  font-size: larger;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+header ul li a:hover {
+  text-decoration: underline;
+  color: #d98324;
+}
+body {
+  background-color: #fff2df;
+  margin: 0;
+  padding: 0px;
+}
+.hero-bg-img {
+  background-image: url("img/olive-oil-.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 0px 20px 0px #d98324;
+}
+.hero {
+  background-color: rgba(0, 0, 0, 0.776);
+  color: whitesmoke;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  z-index: 2000;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+  width: 700px;
+  height: 300px;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #d98324;
+}
+@import url("https://fonts.cdnfonts.com/css/elegant-2");
+.hero h1 {
+  font-size: 4em;
+  margin: 0;
+  text-shadow: 0px 0px 30px #443627;
+  font-family: "Georgia", " Brush Script MT", sans-serif;
+}
+.hero p {
+  color: #d5bfa7dc;
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px;
+  padding: 10px;
+  text-shadow: 0px 0px 30px #443627;
+}
+.hero > a {
+  text-decoration: none;
+  color: #d98324;
+  font-size: 2em;
+  padding: 10px 20px;
+  margin: 50px;
+  background-color: #443627;
+  border: #443627 1px solid;
+  border-radius: 50px;
+  box-shadow: #f2f6d0 0px 0px 5px 0px;
+}
+.hero a:hover {
+  background-color: #d98324;
+  color: #ffffffba;
+  box-shadow: #443627 0px 0px 5px 0px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-container img {
+  width: 900px;
+  height: 600px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 0px #d98324;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.hero-container img:hover {
+  box-shadow: 0px 0px 20px 0px #443627;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.hero-container p {
+  font-size: 2em;
+  margin: 20px;
+  padding: 0;
+  color: #443627;
+  margin: 100px;
+  font-family: "Georgia";
+  text-align: justify;
+}
+.hero-container p::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  color: #d98324;
+}
+#Preparation {
+  background-color: #443627;
+  color: #ffffffd0;
+  height: fit-content;
+}
+#Preparation h2 {
+  font-family: "Georgia";
+  text-align: center;
+  font-size: 4em;
+  margin: 20px;
+  padding: 20px;
+  color: #d98324;
+}
+td {
+  font-size: 25px;
+  margin: 20px;
+}
+table {
+  width: 100%;
+}
+tr {
+  height: 500px;
+}
+.ing1,
+.ing3 {
+  background-color: #af5d0523;
+  width: 100%;
+}
+td h4 {
+  font-size: 2em;
+  color: #f7c793;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+  font-family: "Georgia";
+}
+ol,
+ul {
+  padding-left: 40px;
+}
+li {
+  font-size: 1em;
+  margin: 20px;
+}
+#Video h2 {
+  color: #443627;
+  font-size: 4em;
+  font-family: "Gorgeia";
+  text-align: center;
+  margin-top: 50px;
+}
+#Video > iframe {
+  margin: 30px 15% 0 15%;
+  width: 70%;
+  height: 800px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #d98324;
+}
+#Video > a {
+  text-decoration: none;
+}
+#Video a:hover {
+  text-decoration: underline;
+  color: #d98324;
+}
+footer {
+  background-color: #443627;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+footer table {
+  display: flex;
+}
+footer table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+#local,
+#contact {
+  color: #f7c793;
+}
+#local a,
+#contact a {
+  color: #fff2df;
+}
+footer iframe {
+  width: 600px;
+  height: 450px;
+}
+footer h4 {
+  font-size: 3em;
+  color: #d98324;
+  margin: 20px;
+  padding: 0;
+  background-color: #fff2df;
+  border-radius: 20px;
+}
+footer p {
+  font-size: 1.5em;
+  color: #fff2df;
+  padding: 0;
+}
